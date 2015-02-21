@@ -1,4 +1,7 @@
 Some script that cannot be elsewhere...
+    - readme | todo -> Print a custom readme/todo on standard output
+    - bin\_emulator.sh -> Emulate a bin (like Windows)
 
-    - readme.sh -> Print a README (in fire) on standard output
-    - todo.sh   -> Print a TODO (in fire) on standard output
+For the backup in dropbox:
+    - backup\_function -> Some function intend to backup files
+    - dropbo\_option -> Manage option in my dropbox scripts
