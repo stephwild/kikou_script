@@ -7,7 +7,7 @@ function print_usage
     echo -e "Without options, FILE will be throw to The bin (~/.Trash)\n"
 
     echo -e "OPTION\n------\n"
-    echo -e "-s | --status :\n\tSee the current bin content"
+    echo -e "-l | --list :\n\tSee the current bin content"
     echo -e "--clean :\n\tEmpty the Trash"
     echo -e "-h | --help :\n\tPrint this usage\n"
 
@@ -42,7 +42,7 @@ function bin_throw
 
 function bin_emulator
 {
-    if [ $# -eq 0 ] || [ $1 = '-s' ] || [ $1 = '--status' ]; then
+    if [ $# -eq 0 ] || [ $1 = '-l' ] || [ $1 = '--list' ]; then
         bin_status
     elif [ $1 = '-h' ] || [ $1 = '--help' ]; then
         print_usage
