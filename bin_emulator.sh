@@ -11,7 +11,7 @@ function print_usage
     echo -e "--clean :\n\tEmpty the Trash"
     echo -e "-h | --help :\n\tPrint this usage\n"
 
-    echo -e "Call bin without options and files is equivalent to use 'bin --status'"
+    echo -e "Call bin without options and files is equivalent to use 'bin --list'"
 }
 
 function bin_status
