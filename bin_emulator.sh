@@ -53,3 +53,5 @@ function bin_emulator
         bin_throw $@
     fi
 }
+
+bin_emulator $@
